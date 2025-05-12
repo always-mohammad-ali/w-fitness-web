@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+    font-family: 'Miama';
+    src: url(../miama/Miama.ttf);
+}
+
+
+*{
+    margin:0 ;
+}
+
+
+/* Common css styles */
+main{
+    background-color: black;
+}
+.btn-color{
+    color: white;
+    background-color: #E6533C;
+    font-weight:bold;
+}
+
+.common-title{
+      font-size: 3rem;
+      color: white;
+}
+
+.color-50{
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.color-65{
+    color: rgba(255, 255, 255, 0.65);
+}
+
+
+/* end of common styles */
+
+/* start header style */
+header {
+  height: 100vh; /* or specific height like 600px */
+  width: 100%;
+  background-color: #000; /* fallback black */
+  background-image: linear-gradient(
+    rgba(17, 17, 17, 1) 0%,
+    rgba(99, 99, 99, 1) 44%,
+    rgba(204, 204, 204, 1) 100%,
+    rgba(102, 102, 102, 0.26) 100%
+  );
+  
+  border-top: 40px solid  rgba(17, 17, 17, 1);
+}
+
+/* nav start */
+
+    .nav-format{
+        width: 80%;
+        display: flex;
+        justify-content: space-between;
+        margin: 0px auto;
+        
+        align-items: center;
+        
+    }
+    .nav-title{
+        color: #E6533C;
+        font-size: 2.2rem;
+        font-weight:900;
+        font-style: italic;
+    }
+    .nav-list{
+        display: flex;
+        border: 1px solid rgba(99, 99, 99, 1);
+        border-radius: 39px;
+        padding: 6px;
+        align-items: center;
+        
+    }
+    .nav-item{
+        margin-right: 65px;
+        color: white;
+    }
+    .home{
+        padding: 10px 32px;
+        border-radius: 46px;
+    }
+
+    /* end nav */
+
+    /* start brand section */
+    .brand-container{
+        width: 80%;
+        display: flex;
+        margin: 0 auto;
+        align-items: center;
+    }  
+    .brand-title{
+        font-size: 4.4rem;
+        color: white;
+        line-height: 0.9;
+        
+    }
+
+    .shape{
+    font-family: 'Miama';
+    font-weight: 400;
+    font-size: 8rem;
+    
+}
+
+    .brand-details{
+          width: 70%;
+          margin-top: 30px;
+    }
+    .brand-btn{
+        margin-top: 25px;
+    }
+
+    .button1{
+        padding: 13px 50px;
+        border: 1px solid rgba(99, 99, 99, 1);
+        border-radius: 45px;
+        background-color: rgba(230, 83, 60, 1)
+;        
+        color: white;
+         font-size: 1.2rem;
+    }
+
+    .button2{
+        padding: 13px 50px;
+        border: 1px solid rgba(99, 99, 99, 1);
+        border-radius: 45px;
+        background-color: rgba(99, 99, 99, 0.1);
+        color: white;
+        font-size: 1.2rem;
+    }
+    .brand-imgContainer{
+        position: relative;
+    }
+    .brand-img{
+       
+        display: block;
+    }
+    .workout-video{
+        background: rgba(255, 255, 255, 0.1); 
+        backdrop-filter: blur(10px);
+        
+        padding: 15px;
+        border: 1px solid rgba(99, 99, 99, 1);
+        border-radius: 15px;
+
+        position: absolute;
+        top: 81%;
+        left: 2%;
+        transform: translate(-50%, -50%);
+        z-index: 2;
+
+        width: 45%;
+        
+       
+    }
+    .workout-video h1{
+        color: white;
+        font-size: 2rem;
+        font-weight: bolder;
+    }
+    .tutorial-video{
+        
+         background: rgba(255, 255, 255, 0.1); 
+        backdrop-filter: blur(10px);
+        
+        padding: 15px;
+
+        border: 1px solid rgba(99, 99, 99, 1);
+        border-radius: 15px;
+        
+         position: absolute;
+        top: 32%;
+        left: 92%;
+        transform: translate(-50%, -50%);
+        z-index: 2;
+
+        width: 45%;
+    }
+    .tutorial-video h1{
+        color: white;
+        font-size: 2rem;
+        font-weight: bolder;
+    }
+    
+
+
+
+
+    /* end brand section */
+
+
+/* end header style */
+
+/* start main style */
+
+    .habit{
+        background-color: black;
+        width: 80%;
+        margin: 0 auto;
+        text-align: center;
+        border-top: 20px solid black;
+    }
+    .habit-title{
+        margin-top: 20px;
+    }
+    .habit-details{
+        font-size: 0.8rem;
+        margin: 20px;
+    }
+
+    .habit-imgContainer{
+      
+        display: flex;
+        justify-content: center;
+        margin: 20px 0px;
+    }
+    .habit-img{
+        object-fit: cover;
+        border-radius: 50%;
+        margin: 20px 40px;
+
+    }
+    .imagee{
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+    .imagee>h2{
+        color: white;
+        font-size: 1.1rem;
+        margin: 15px 15px 2px 15px;
+    }
+    .imagee>p{
+        margin: 5px 20px;
+    }
+    
+
+
+
+/* end main style */
+
+/* start footer style */
+
+/* end footer style */
+
+
+/* start media query */
+
+/* start small device max=576px */
+
+/* end small device max=576px */
+
+/* start mid device min=576 & max=768 */
