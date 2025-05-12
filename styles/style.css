@@ -207,6 +207,7 @@ header {
 
 /* start main style */
 
+/* start habit part */
     .habit{
         background-color: black;
         width: 80%;
@@ -247,9 +248,135 @@ header {
     .imagee>p{
         margin: 5px 20px;
     }
+/* end habit part */
+
+/* start run part */
+    
+   .run-container{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    background-color:rgba(255, 255, 255, 0.10) ;
+    border-radius: 50px;
+    margin-top: 90px;
+    padding: 30px;
+   }
+   .run-details{
+    width: 60%;
+    margin-left: 60px;
+   }
+   .run-details>p{
+    width: 65%;
+    margin: 20px 0px;
+   }
+   .run-details>button{
+     padding: 17px 70px;
+     border-radius: 30px;
+   }
+   .run-imgContainer{
+    width: 40%;
+   }
+   .run-img{
+    border-radius: 5%;
+    width: 85%;
+   }
+
+
+/* end run part */
+
+/* start train part */
+   .train-container{
+    width: 80%;
+
+    
+    display: flex;
+    flex-direction: column;
+ 
+    margin: 0 auto;
+    margin-top: 100px;
+   }
+
+   .train-container>p{
+     margin: 13px 0px 60px 0px;
+     width: 55%;
+   }
+
+   .train-imgContainer{
+    width: 100%;
     
 
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+  
+   }
+   .train-imgBox {
+  position: relative;
+  width: 100%;
+  
+  overflow: hidden;
+}
+    .train-img{
+     width: 100%;
+     height: 100%;
+     object-fit: cover;
+     display: block;
+     border-radius: 10px;
+   
+   }
+   .train-item1{
+    grid-column: span 2;
+   
+   }
+   .train-item2{
+    grid-column: span 3;
+  
+   
+   }
+   .train-item3{
+    grid-column: span 1;
+   
+   
+   }
+   .train-item4{
+    grid-column: span 3;
+    
+   }
+   .train-item5{
+    grid-column: span 1;
+   
+   }
+   .train-item6{
+    grid-column: span 2;
+    
+   }
 
+   .overlay-text {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  color: rgb(255, 255, 255);
+  background-color: rgba(0,0,0,0.5);
+  padding: 6px 12px;
+  font-size: 16px;
+  border-radius: 4px;
+}
+
+.train-item1,
+.train-item2,
+.train-item3,
+.train-item4,
+.train-item5,
+.train-item6 {
+  position: relative;
+  height: 200px; 
+  overflow: hidden;
+}
+
+  
+
+/* end train part */
 
 /* end main style */
 
